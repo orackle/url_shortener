@@ -40,11 +40,9 @@ export default function ShortenExpress() {
                 window.location.href = data.original_url;
             } else {
                 console.error('Error:', data.error);
-                // Handle error
             }
         } catch (error) {
             console.error('Error:', error);
-            // Handle error
         }
     };
 
@@ -70,7 +68,7 @@ export default function ShortenExpress() {
                         id="url"
                         value={shortenedUrl}
                         className="p-3 w-2/3 rounded-md bg-black shadow-sm border border-gray-300 mr-2 cursor-pointer"
-                        readOnly // Make the input field read-only
+                        readOnly
                         title="Click to go to the original URL"
                         onClick={handleRedirect}
                     />
