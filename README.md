@@ -12,9 +12,8 @@ https://url-shortener-orackles-projects.vercel.app/
 - MongoDB: handle link storage and fetching original links
 - Framer-Motion: Transitions
 
-### Completed on 3/4/2024 - John Crickett's Coding Challenges 
+### Completed on 3/4/2024 - John Crickett's Coding Challenges / URL-Shortener
 
-
-https://codingchallenges.fyi/challenges/challenge-url-shortener
+https://codingchallenges.fyi/challenges/challenge-url-shortener 
 
 
